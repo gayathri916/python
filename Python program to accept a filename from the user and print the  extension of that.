@@ -1,0 +1,9 @@
+>>> filename=input("Enter Filename:")
+Enter Filename:python.pdf
+>>> file=filename.split(".")
+>>> file
+['python', 'pdf']
+>>> print("Extension of the file is:")
+Extension of the file is:
+>>> print("Extension of the file is:" +file[-1])
+Extension of the file is:pdf
